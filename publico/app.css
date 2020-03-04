@@ -1,0 +1,65 @@
+body {
+  background: #FAD716;
+  color: #403f40;
+  font-family: inherit;
+}
+#main-container{
+  margin: 30px auto;
+}
+.logo {
+  width: 100%; height: 100%;
+   position: relative; top: 8em;
+}
+.site-footer {
+  text-transform: uppercase;
+  font-size: 12px;
+
+}
+.login-box{
+background-color: #ffce00;
+border: 1px solid #edeee; /*Esta es la caja de logeo, no
+es necesario que tenga color (borde) o se veria mal*/
+border-radius:3px
+padding: 10px 0;
+text-align: center;
+box-shadow:  10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.signup-box{
+  background-color: #ffce00;
+  border: 1px solid #edeee; /*Esta es la caja de logeo, no
+  es necesario que tenga color (borde) o se veria mal*/
+  border-radius:3px
+  padding: 10px 0;
+  text-align: center;
+}
+.signup-box .HOLA { /* revisar*/
+  font-family: inherit;
+  font-size: 42px;
+}
+.signup-form{
+  width: 65%
+  margin: 0px auto;
+}
+
+.signup-form h2 {
+  color: #403f40; /* este es el estilo de la nota estas
+  listo para identificar organismos*/
+  font-size: 1.2em;
+}
+.section { /* aun no entiendo como cambiar de color
+  las letras para registrarte */
+  text-align: center;
+  font-family: inherit;
+  color: black;
+}
+.signup-form .btn.btn-fb{
+  background-color: #c54357; /* esta es la caja de texto
+  de registo con fb*/
+  font-size: .9em;
+}
+.signup-form .btn.btn-fb:hover {
+  background-color:#f56131;
+}
+.signup-form .btn.btn-singup{
+  background-color: #125688; /*revisar*/
+}
