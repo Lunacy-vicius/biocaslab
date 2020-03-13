@@ -1,0 +1,122 @@
+/*me hace falta alinear los botones al centro asi como que tengan la misma medida, el boton
+rojo no cambia de color el borde*/
+body {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FAD716;
+}
+.clinica {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 13px 36px;
+    border: 2px solid #a12727;
+    border-radius: 12px;
+    background: #ff4a4a;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff4a4a), to(#992727));
+    background: -moz-linear-gradient(top, #ff4a4a, #992727);
+    background: linear-gradient(to bottom, #ff4a4a, #992727);
+    -webkit-box-shadow: #ff5959 0px 0px 18px 0px;
+    -moz-box-shadow: #ff5959 0px 0px 18px 0px;
+    box-shadow: #ff5959 0px 0px 18px 0px;
+    text-shadow: #591717 1px 1px 1px;
+    font: normal normal bold 20px verdana;
+    color: #ffffff;
+    text-decoration: none;
+}
+.clinica:hover,
+.clinica:focus {
+    background: #ff5959;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff5959), to(#b62f2f));
+    background: -moz-linear-gradient(top, #ff5959, #b62f2f);
+    background: linear-gradient(to bottom, #ff5959, #b62f2f);
+    color: #ffffff;
+    text-decoration: none;
+}
+.clinica:active {
+    background: #982727;
+    background: -webkit-gradient(linear, left top, left bottom, from(#982727), to(#982727));
+    background: -moz-linear-gradient(top, #982727, #982727);
+    background: linear-gradient(to bottom, #982727, #982727);
+}
+/*el texto anterior es para le boton clinca*/
+
+.Fitopatologia {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 13px 36px;
+    border: 2px solid #067d00;
+    border-radius: 12px;
+    background: #17c20e;
+    background: -webkit-gradient(linear, left top, left bottom, from(#17c20e), to(#0a6605));
+    background: -moz-linear-gradient(top, #17c20e, #0a6605);
+    background: linear-gradient(to bottom, #17c20e, #0a6605);
+    -webkit-box-shadow: #59ff59 0px 0px 18px 0px;
+    -moz-box-shadow: #59ff59 0px 0px 18px 0px;
+    box-shadow: #59ff59 0px 0px 18px 0px;
+    text-shadow: #591717 1px 1px 1px;
+    font: normal normal bold 20px verdana;
+    color: #ffffff;
+    text-decoration: none;
+}
+.Fitopatologia:hover,
+.Fitopatologia:focus {
+    border: 2px solid #0ac800;
+    background: #1ce911;
+    background: -webkit-gradient(linear, left top, left bottom, from(#1ce911), to(#0c7a06));
+    background: -moz-linear-gradient(top, #1ce911, #0c7a06);
+    background: linear-gradient(to bottom, #1ce911, #0c7a06);
+    color: #ffffff;
+    text-decoration: none;
+}
+.Fitopatologia:active {
+    background: #0e7408;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0e7408), to(#0a6605));
+    background: -moz-linear-gradient(top, #0e7408, #0a6605);
+    background: linear-gradient(to bottom, #0e7408, #0a6605);
+}
+/*el boton anterior es para fitopatologia*/
+
+.Alimentos {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 13px 36px;
+    border: 2px solid #00327d;
+    border-radius: 12px;
+    background: #0a33ff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0a33ff), to(#08034a));
+    background: -moz-linear-gradient(top, #0a33ff, #08034a);
+    background: linear-gradient(to bottom, #0a33ff, #08034a);
+    -webkit-box-shadow: #6459ff 0px 0px 18px 0px;
+    -moz-box-shadow: #6459ff 0px 0px 18px 0px;
+    box-shadow: #6459ff 0px 0px 18px 0px;
+    text-shadow: #591717 1px 1px 1px;
+    font: normal normal bold 20px verdana;
+    color: #ffffff;
+    text-decoration: none;
+}
+.Alimentos:hover,
+.Alimentos:focus {
+    border: 2px solid #007dff;
+    background: #0c3dff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0c3dff), to(#0a0459));
+    background: -moz-linear-gradient(top, #0c3dff, #0a0459);
+    background: linear-gradient(to bottom, #0c3dff, #0a0459);
+    color: #ffffff;
+    text-decoration: none;
+}
+.Alimentos:active {
+    background: #061f99;
+    background: -webkit-gradient(linear, left top, left bottom, from(#061f99), to(#08034a));
+    background: -moz-linear-gradient(top, #061f99, #08034a);
+    background: linear-gradient(to bottom, #061f99, #08034a);
+}
