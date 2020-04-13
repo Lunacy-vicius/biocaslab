@@ -1,0 +1,164 @@
+body {
+  font-family: 'Baloo Bhai 2', cursive;
+  margin: 0;
+}
+input, textarea{
+  outline: 0;
+}
+input:focus, textarea:focus {
+background: lightgray;
+}
+.button{
+  border-radius: 12px;
+  border: none;
+  padding: 7px 12px;
+  cursor: pointer;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  background: #cc3535;
+  background: -moz-linear-gradient(top,  #cc3535 30%, #cc0000 40%, #cc0000 40%, #e00300 58%, #cc0000 85%);
+  background: -webkit-linear-gradient(top,  #cc3535 30%,#cc0000 40%,#cc0000 40%,#e00300 58%,#cc0000 85%);
+  background: linear-gradient(to bottom,  #cc3535 30%,#cc0000 40%,#cc0000 40%,#e00300 58%,#cc0000 85%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc3535', endColorstr='#cc0000',GradientType=0 );
+}
+.titulo {
+  font-family: 'Fredoka One', cursive;
+  font-size: 50px;
+  margin-bottom: 0px;
+  margin-top: 70px;
+}
+.title-a {
+  font-size: 24px;
+  margin-top: 0px;
+}
+.title-b{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.cursos h2 {
+  font-size: 35px;
+}
+
+.portada{
+  background: #ffce00;
+  background: -moz-linear-gradient(top,  #ffce00 16%, #f9ba1b 30%, #ffa73d 50%, #f40420 86%);
+  background: -webkit-linear-gradient(top,  #ffce00 16%,#f9ba1b 30%,#ffa73d 50%,#f40420 86%);
+  background: linear-gradient(to bottom,  #ffce00 16%,#f9ba1b 30%,#ffa73d 50%,#f40420 86%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffce00', endColorstr='#f40420',GradientType=0 );
+
+  color: black;
+  padding: 20px;
+  height: 615px;
+}
+.portada button{
+  margin-bottom: 70px;
+}
+.menu {
+  display: inline-block;
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+}
+.menu li {
+  display: inline-block;
+  margin-left: 30px;
+  margin-right: 0px;
+}
+.menu a {
+  color: black;
+  text-decoration: none;
+}
+
+.logotipo {
+  display:inline-block;
+  margin-left: 0;
+}
+.contenedor{
+  width: 800px;
+  margin: auto;
+}
+
+.Clinica img{
+  float: right;
+  margin-top: 50px;
+}
+.Clinica {
+  overflow: hidden;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #1F313C;
+  border-radius: 20px;
+}
+.Fitopatologia img{
+  float: right;
+  margin-top: 50px;
+}
+.Fitopatologia {
+  overflow: hidden;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #1F313C;
+  border-radius: 20px;
+}
+.header {
+  position: relative;
+}
+.footer{
+  background: #ffce00;
+  padding: 10px 10px;
+}
+.contacto{
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.contacto img{
+  display: block;
+}
+.contacto strong {
+  display: block;
+}
+.contacto a {
+  color: black;
+  text-decoration: none;
+  margin: 10px 10px 10px 0;
+}
+
+.footer .contenedor{
+  display: flex;
+  justify-content: space-between;
+}
+
+.col1, .col2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.col1 {
+  margin-right: 15px;
+}
+.col2 {
+align-items: flex-start;
+}
+.col2 .button {
+  margin-top: 15px;
+}
+.intereses label{
+  font-size: 11px;
+}
+
+.formulario {
+  display: flex;
+    width: 400px;
+    color: black;
+}
+
+.formulario label, .sexo, .intereses {
+  margin-bottom: 10px;
+}
+.sexo{
+  margin-top: 10px;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"> <!--se puede agregar en una linea y hacer mas rapido-->
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/biocas.css">
+    <title>BiocasLab</title>
+  </head>
+  <body>
+    <section id="portada" class="portada"><!-- portada -->
+      <header id="header" class="header contenedor"><!-- header -->
+        <figure class="logotipo"><!-- logotipo -->
+          <img src="../imagenes/biocaslab.jpg" width="230" height="70" alt="BiocasLab logo"/>
+        </figure>
+        <nav class="menu"> <!-- menu  -->
+          <ul>
+            <li>
+              <a href="index.html">Inicio</a>
+            </li>
+            <li>
+              <a href="topalumnos.html">Top Alumnos</a>
+            </li>
+            <li>
+              <a href="discusiones.html">Discusiones</a>
+            </li>
+            <li>
+              <a href="perfil.html">Perfil</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="contenedor">
+    <h1 class="titulo">Aprende las bases de la identificación microbiana clásica</h1>  <!-- titulo -->
+      <h3 class="title-a" class="resumen">Gratis, divertido y efectivo</h3><!-- resumen -->
+      <a href="registrate.html" class="button">
+        Empezar ahora
+      </a><!-- boton -->
+      </div>
+    </section>
+    <section id="cursos" class="cursos contenedor"><!-- cursos -->
+      <h2>Nuestros cursos</h2><!-- titulo -->
+      <article class="Clinica"><!-- Clinica -->
+        <img src="../imagenes/logoc4.png" alt="logo del curso Identificacion clinica"width="200">
+        <h3 class="title-b">Clínica</h3>
+        <ol>
+          <li>Microorganismos del area clínica</li>
+          <li>Incluye bacterias, hongos, protozoarios y virus</li>
+          <li>Identifica a los agentes etiologicos causantes de enfermedades en humanos</li>
+        </ol>
+      </article>
+      <article class="Fitopatologia"><!-- Fitopatologia -->
+        <img src="../imagenes/logof1.png" alt="logo del curso indentificacion fitopatologica"width="200">
+        <h3 class="title-b">Fitopatología</h3>
+        <ol>
+          <li>Microorganismos del area Fitopatologica</li>
+          <li>Incluye bacterias, hongos, protozoarios y virus</li>
+          <li>Identifica a los agentes etiologicos causantes de enfermedades en plantas</li>
+        </ol>
+      </article>
+    </section>
+    <footer class="footer">
+      <div class="contenedor">
+      <div class="contacto">
+        <img src="../imagenes/biocaslab.jpg" width="230" height="70" alt="BiocasLab logo"/>
+        <a href="tel:5582100153"><strong>Teléfono</strong><span>5582100153</span></a>
+        <a href="mailto:ricardocisneros-66@hotmail.com"><strong>E-mail</strong><sapan>ricardocisneros-66@hotmail.com</sapn></a>
+      </div>
+      <form class="formulario">
+        <div class="col1">
+
+        <label for="Nombre">Nombre</label>
+        <input type="text" required id="nombre" name="nombre"/>
+        <label for="Nombre">e-mail</label>
+        <input type="email" required id="e-mail" name="email"/>
+        <div class="sexo">
+        <label for="mujer"></label>
+        <input type="radio" id="mujer" name="sexo" value="mujer"> mujer
+        <label for="hombre"></label>
+        <input type="radio" id="hombre" name="sexo" value="hombre"> hombre
+        </div>
+        <div class="intereses">
+          <label for="cotizacion">
+          <input type="checkbox" checked id="cotizacion" name="intereses" value="Cotización"> Cotización
+          </label>
+          <label for="reclamos">
+          <input type="checkbox" id="reclamos" name="intereses" value="Reclamos"> Reclamos
+          </label>
+          <label for="comentarios">
+          <input type="checkbox" id="comentarios" name="intereses" valu e= Comentarios> Comentarios
+          </label>
+          <label for="otros">
+          <input type="checkbox" id="otros" name="intereses" value="Otros"> Otros
+          </label>
+        </div>
+        </div>
+        <div class="col2">
+          <label for="asunto">Asunto</label>
+          <textarea name="asunto" id="asunto" rows="5" cols="30"></textarea>
+          <input type="submit" value="Enviar" class="button"/>
+        </div>
+      </form>
+      </div>
+    </footer>
+  </body>
+</html>
