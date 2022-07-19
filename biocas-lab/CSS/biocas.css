@@ -162,3 +162,7 @@ align-items: flex-start;
 .sexo{
   margin-top: 10px;
 }
+
+a:hover {
+  color:salmon
+}
